@@ -37,6 +37,7 @@ main {
 
 @media (min-width: 768px) {
   main {
+    display: grid; /* Fix: Set main as a grid container */
     grid-template-columns: 2fr 1fr;
   }
 }
@@ -72,6 +73,48 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.activity-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc; /* Ensure bullet points are displayed */
+  color: #555;
+  background-color: #f1f1f1; /* Add a subtle background for the list */
+  padding: 10px; /* Add padding around the list */
+  border-radius: 4px; /* Round the corners of the list */
+  border: 1px solid #ddd; /* Add a border to separate the list visually */
+}
+
+.activity-card ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333; /* Make the text color slightly darker for better readability */
+}
+
+.activity-card .participants {
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #e3f2fd; /* Light blue background for participants section */
+}
+
+.activity-card .participants h5 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #1a237e; /* Dark blue for the heading */
+}
+
+.activity-card .participants ul {
+  list-style-type: circle; /* Use circle bullets for participants */
+  padding-left: 20px;
+  color: #333; /* Darker text for better readability */
+}
+
+.activity-card .participants ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
 }
 
 .form-group {
