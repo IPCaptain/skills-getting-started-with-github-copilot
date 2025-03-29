@@ -37,6 +37,7 @@ main {
 
 @media (min-width: 768px) {
   main {
+    display: grid; /* Fix: Set main as a grid container */
     grid-template-columns: 2fr 1fr;
   }
 }
