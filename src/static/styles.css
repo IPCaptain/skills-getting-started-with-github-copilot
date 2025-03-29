@@ -80,11 +80,16 @@ section h3 {
   padding-left: 20px;
   list-style-type: disc; /* Ensure bullet points are displayed */
   color: #555;
+  background-color: #f1f1f1; /* Add a subtle background for the list */
+  padding: 10px; /* Add padding around the list */
+  border-radius: 4px; /* Round the corners of the list */
+  border: 1px solid #ddd; /* Add a border to separate the list visually */
 }
 
 .activity-card ul li {
   margin-bottom: 5px;
   font-size: 14px;
+  color: #333; /* Make the text color slightly darker for better readability */
 }
 
 .form-group {
